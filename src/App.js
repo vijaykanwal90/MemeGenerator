@@ -26,10 +26,10 @@ function App() {
 <form className="grid grid-cols-6 gap-4 ">
     <input  type="text" name="top" className="col-start-1 col-end-3 my-8 mx-12" placeholder="Top text" onChange={handleChange}  value={formData.top}/>
   <input  type="text" name="bottom" className="col-end-7 col-span-2 my-8 mx-12 " placeholder="Bottom text" onChange={handleChange} value={formData.bottom}/>
-  <button onClick={handleClick}  type="submit" className="   col-start-1 col-end-7 w-64 h-12 hover:font-bold bg-red text-black hover:text-white hover:bg-black my-8 mx-auto border rounded ">Click me to get image</button>
+  <button   type="submit" className="   col-start-1 col-end-7 w-64 h-12 hover:font-bold bg-red text-black hover:text-white hover:bg-black my-8 mx-auto border rounded ">Click me to get image</button>
 </form>
-<div><img src={empty} alt="" onClick={favourite}/>
-</div>
+{/* <div><img src={} alt="" o/> */}
+
         </main>
 
   );
