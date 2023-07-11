@@ -56,7 +56,7 @@ function App() {
 
       <div className='  flex flex-col align-middle justify-center'>
         <img src={formData.randomImage} className='mx-auto' />
-        
+        {/* hi some comment */}
         <h2>{formData.topText}</h2>
         <h2>{formData.bottomText}</h2>
       </div>
