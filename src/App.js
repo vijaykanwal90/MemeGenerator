@@ -10,10 +10,6 @@ function App() {
   });
   const [allMemes, setAllMemes] = useState([])
 
-  // const handleClick = ()=>{
-  //   // console.log(formData);
-  //   console.log("hii");
-  // }
   useEffect(() => {
     fetch("https://api.imgflip.com/get_memes")
       // const data = await res.json();
