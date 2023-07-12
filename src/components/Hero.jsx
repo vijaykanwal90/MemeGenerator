@@ -43,8 +43,8 @@ const Hero = () => {
   <div className=' flex flex-col align-middle justify-center'>
     <img src={memeImage} className='mx-auto' />
     {/* hi some comment */}
-    <h2>{formData.topText}</h2>
-    <h2>{formData.bottomText}</h2>
+    <h2 className='.meme--text top'>{formData.topText}</h2>
+    <h2 className='.meme--text bottom'>{formData.bottomText}</h2>
     <h2>hiii</h2>
   </div> 
   </div>
